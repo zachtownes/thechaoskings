@@ -1,0 +1,391 @@
+:root{
+    --dark-grey: #2e2e2e;
+    --mcgray: #292929;
+    --more-ominous-sky: #101111;
+}
+
+@font-face{
+    font-family:"Weirdo";
+    src: url("../css/fonts/weirdo.woff") format("woff"),
+         url("../css/fonts/weirdo.woff2") format("woff2")
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.base{
+    z-index: 1;
+}
+
+
+body{ 
+    background-color: var(--dark-grey);
+    font-family: 'Signika', sans-serif;
+    z-index: 1;
+}
+
+.HidePage{
+    background-color: var(--mcgray);
+    opacity: 0.8;
+    left: 0;
+    top: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: block;
+    z-index: 2;
+}
+
+.blur {
+    
+    display: none;
+}
+
+
+.frontPage{
+    z-index: 3;
+    position: fixed;
+    border: thick;
+    border-radius: 15px;
+    border-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100%;
+    background-color: var(--more-ominous-sky);
+}
+
+.membersPage{
+    z-index: 4;
+    position: absolute;
+    background-color: var(--more-ominous-sky);
+    border: thick;
+    border-radius: 15px;
+    border-color: black;
+    width: 60%;
+    max-height: 90%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    top: 20px;
+    height: 600px;
+}
+
+.rulesPage{
+    z-index: 4;
+    position: absolute;
+    background-color: var(--more-ominous-sky);
+    border: thick;
+    border-radius: 15px;
+    border-color: black;
+    width: 26%;
+    max-height: 90%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    top: 20px;
+    height: 430px;
+    text-align: center;
+}
+
+.navbar {
+    font-size: 18px;
+    background-color:var(--damp-grass);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Weirdo';
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+        .main-nav li {
+            margin: 0;
+        }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+    .logo {
+        margin-top: 0;
+        font-family: 'Weirdo';
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: -1;
+    border-top-left-radius: -1;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+    color: inherit;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
+.panel {
+    margin-bottom: 21px;
+    background-color: #546575;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.fixed_header{
+    overflow: auto;
+    height: 100px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+.fixed_header td{
+    width: 20%;
+}
+
+.MultiStreamTwoPerRow{
+    display: inline-block;
+    width: 100%;
+}
+
+.Left{
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 1px;
+    padding: 5px;
+
+}
+
+.Right{
+    display: inline-block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 1px;
+    padding: 5px;
+}
+
+.Center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.CenterFull{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ChatRight{
+    width: 25%;
+    float: right;
+    position: relative;
+}
+
+.ChatLeft{
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+.VideoLeft{
+    width: 75%;
+    float: left;
+    position: relative
+}
+
+.VideoFullLeft{
+    width: 80%;
+    float: left;
+    position: relative
+}
+
+.ChatFullLeft{
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+.VideoRight{
+    width: 75%;
+    float: right;
+    position: relative
+}
+
+.MembersText{
+    color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.li {
+    padding-left: 20px !important;
+  }
+
+.PaddingLeft{
+    padding-left: 20px !important;
+}
+
+.LeftAlign{
+    text-decoration: underline !important;
+    float: left;
+    position: relative;
+    width: 25%;
+    padding-left: 20px !important;
+}
+
+.LeftAlignNoPad{
+    float: left;
+    position: relative;
+    width: 25%;
+    padding-left: 5px !important;
+}
+
+.RightAlign{
+    float: right;
+    position: relative;
+    width: 75%;
+}
+
+.MembersCenter{
+    width: 90%;
+    display: inline-block;
+}
+
+.Bio{
+    font-family: 'Weirdo';
+}
+
+.LeftColumn{
+    float: left;
+    width: 25%;
+}
+
+.RightColumn{
+    padding-top: 25px;
+    float: right;
+    width: 75%;
+}
+
+.TextUnderline{
+    text-decoration: underline !important;
+}
+
+.PercentRight{
+    padding-top: 25px;
+    padding-right: 30px;
+    float: right;
+    width: 19%;
+    position: relative;
+}
+
+.PercentLeft{
+    padding-top: 25px;
+    padding-left: 30px;
+    float: left;
+    width: 19%;
+    position: relative;
+    clear: left;
+}
+
+.VideoWithRules{
+    width: 100%;
+    display: inline-block;
+}
+
+.multistream{
+    position: fixed;
+    border: thick;
+    border-radius: 15px;
+    border-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100%;
+    background-color: var(--more-ominous-sky); 
+}
+
