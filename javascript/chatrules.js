@@ -1,5 +1,5 @@
 //Used to count how many Twitch streeams should be rendered
-window.count=2;
+window.count=0;
 
 //Shows rule over lay when going ot multistream page. Helps with not need to render them next to vidoes/streams
 function chatrules(){
@@ -71,7 +71,7 @@ function showMultiStream(){
                 url: "https://api.twitch.tv/helix/streams?user_id=105877980",
                 success: function (response) {
                     console.log(response)
-                    window.CheckovskyStatus = "Online"
+                    window.CheckovskyStatus = "Offline"
                     if(response.data[0].type){
                         window.CheckovskyStatus = "Online"
                         window.count=window.count+1
@@ -87,7 +87,7 @@ function showMultiStream(){
                 url: "https://api.twitch.tv/helix/streams?user_id=162793470",
                 success: function (response) {
                     console.log(response)
-                    window.IrishBeefCakeStatus = "Online"
+                    window.IrishBeefCakeStatus = "Offline"
                     if(response.data[0].type){
                         window.IrishBeefCakeStatus = "Online"
                         window.count=window.count+1
