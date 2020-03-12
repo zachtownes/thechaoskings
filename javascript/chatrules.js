@@ -1067,7 +1067,7 @@ function everyone(){
 function Offline(){
     document.getElementById("TabArea").innerHTML =
         `
-        <div class="membersPage">
+        <div class="membersMultistreamPage">
         <h1 class="MembersText" style="text-align: center;">No one is currently online right now. Please use the twitch links below to follow us and get notifications when we are online.</h1>
         <div class="MembersCenter">
         <div class="LeftColumn">

@@ -321,7 +321,10 @@ function IrishBeefCakeBio(){
 //Removes the backround blur on anypage, and hides overlays
 $('.HidePage').click(CloseTransactionForm);
 function CloseTransactionForm() {
-    if(window.location.href == "https://thechaoskings.com/test/"){
+    if(window.location.href.match('/test*/')){
+        
+    }
+    else if(window.location.href.match('/multistream.*/')){
         
     }
     else {

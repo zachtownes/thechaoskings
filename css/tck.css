@@ -81,6 +81,26 @@ body{
     border-top: 6px solid var(--color3);
 }
 
+.membersMultistreamPage{
+    z-index: 4;
+    position: absolute;
+    background-color: var(--color4);
+    border: thick;
+    border-radius: 15px;
+    border-color: black;
+    width: 60%;
+    max-height: 90%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    top: 20px;
+    height: 520px;
+    border-top: 6px solid var(--color3);
+    /* padding-top: 100px; */
+}
+
 .rulesPage{
     z-index: 4;
     position: absolute;
