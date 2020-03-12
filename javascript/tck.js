@@ -1,11 +1,12 @@
 let mainNav = document.getElementById('navbar');
-
 let navBarToggle = document.getElementById('js-navbar-toggle');
 
 navBarToggle.addEventListener('click', function () {
     mainNav.classList.toggle('active');
 })
 
+
+//Onload function sets the rules for multistream page or hides the overlay
 function onLoad(){
     console.log(window.location.href)
     if(window.location.href == "https://thechaoskings.com/test/"){
@@ -17,103 +18,7 @@ function onLoad(){
     
 }
 
-// function ShowMultiStream(){
-//     $('.HidePage').show()
-//     document.getElementById('TabArea').innerHTML=
-//     `<div class="frontPage">
-//     <div class="MultiStreamTwoPerRow">
-//         <div class="Left">
-//             <iframe
-//                 class="VideoLeft"
-//                 src="https://player.twitch.tv/?channel=checkovskylp"
-//                 height="400"
-//                 width="100%"
-//                 frameborder="0"
-//                 scrolling="true"
-//                 allowfullscreen="true"
-//                 >
-//             </iframe>
-//             <iframe 
-//                 class="ChatLeft"
-//                 frameborder="0"
-//                 id="chat_embed"
-//                 src="https://www.twitch.tv/embed/checkovskylp/chat"
-//                 height="400"
-//                 width="100%"
-//                 >
-//             </iframe>
-//         </div>
-//         <div class="Right">
-//             <iframe
-//                 class="VideoRight"
-//                 src="https://player.twitch.tv/?channel=mahersh117"
-//                 height="400"
-//                 width="100%"
-//                 frameborder="0"
-//                 scrolling="true"
-//                 allowfullscreen="true">
-//             </iframe>
-//             <iframe 
-//                 class="ChatRight"
-//                 frameborder="0"
-//                 id="chat_embed"
-//                 src="https://www.twitch.tv/embed/mahersh117/chat"
-//                 height="400"
-//                 width="100%">
-//             </iframe>
-//         </div>
-//     </div>
-//     <div class="VideoWithRules">
-//         <div class="PercentLeft MembersText">
-//             <h3 class="TextUnderline MembersText">Chat Rules</h3>
-//             </br>
-//             <h4 class="MembersText">
-//                 <ul style="list-style-type:square;">
-//                     <li>Talk to us, help us have a great stream with you</li>
-//                     <li>Don't use racist or sexist language</li>
-//                     <li>Don't bring down the stream</li>
-//                     <li>No religion or politics in the chat</li>
-//                     <li>Please have fun</li>
-//                 </ul>
-//             </h4>
-//         </div>
-        
-//         <div class="PercentRight MembersText">
-//             <h3 class="TextUnderline MembersText">Chat Rules</h3>
-//             </br>
-//             <h4 class="MembersText">
-//                 <ul style="list-style-type:square;">
-//                     <li>Talk to us, help us have a great stream with you</li>
-//                     <li>Don't use racist or sexist language</li>
-//                     <li>Don't bring down the stream</li>
-//                     <li>No religion or politics in the chat</li>
-//                     <li>Please have fun</li>
-//                 </ul>
-//             </h4>
-//         </div>
-//         <div class="Center">
-//             <iframe
-//                 class="Video"
-//                 src="https://player.twitch.tv/?channel=M1STERXMAYH3M"
-//                 height="400"
-//                 width="708"
-//                 frameborder="0"
-//                 scrolling="true"
-//                 allowfullscreen="true">
-//             </iframe>
-//             <iframe 
-//                 class="Chat"    
-//                 frameborder="0"
-//                 id="chat_embed"
-//                 src="https://www.twitch.tv/embed/M1STERXMAYH3M/chat"
-//                 height="400"
-//                 width="200">
-//             </iframe>
-//         </div>
-//     </div>
-// </div>`
-// }
-
+//Renders the members overlay to show the members of the chaoskings
 function ShowMembers(){
     $('.HidePage').show();
     document.getElementById('TabArea').innerHTML=
@@ -278,7 +183,7 @@ function ShowMembers(){
     </div>`;
 }
 
-
+//Discord Overlay. Could be better and will be worked on in issue #2
 function ShowDiscord(){
     $('.HidePage').show();
     document.getElementById('TabArea').innerHTML=
@@ -293,6 +198,7 @@ function ShowDiscord(){
 }
 
 
+//Shows Mahersh Bio info, Hides all other members.
 function MahershBio(){
     $('.MahershBio').show();
     $('.M1STERXMAYH3MBio').hide();
@@ -316,6 +222,7 @@ function MahershBio(){
     document.getElementById("IrishBeefCakeText").classList.remove("TextUnderline");
 }
 
+//Shows Mayh3m's bio info. Hides other members
 function M1STERXMAYH3MBio(){
     $('.MahershBio').hide();
     $('.M1STERXMAYH3MBio').show();
@@ -339,6 +246,7 @@ function M1STERXMAYH3MBio(){
     document.getElementById("IrishBeefCakeText").classList.remove("TextUnderline");
 }
 
+//Shows Sparrow Bio info Hides others.
 function ShaddowSparrowBio(){
     $('.MahershBio').hide();
     $('.M1STERXMAYH3MBio').hide();
@@ -362,6 +270,7 @@ function ShaddowSparrowBio(){
     document.getElementById("IrishBeefCakeText").classList.remove("TextUnderline");
 }
 
+//Shows Checkosvsky Bio info, hides others.
 function CheckovskyBio(){
     $('.MahershBio').hide();
     $('.M1STERXMAYH3MBio').hide();
@@ -385,6 +294,7 @@ function CheckovskyBio(){
     document.getElementById("IrishBeefCakeText").classList.remove("TextUnderline");
 }
 
+//Shows Beefcakes Bio info, hides others
 function IrishBeefCakeBio(){
     $('.MahershBio').hide();
     $('.M1STERXMAYH3MBio').hide();
@@ -408,6 +318,7 @@ function IrishBeefCakeBio(){
     document.getElementById("IrishBeefCakeText").classList.add("TextUnderline");
 }
 
+//Removes the backround blur on anypage, and hides overlays
 $('.HidePage').click(CloseTransactionForm);
 function CloseTransactionForm() {
     if(window.location.href == "https://thechaoskings.com/test/"){

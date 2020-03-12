@@ -1,16 +1,15 @@
-
-
-
+//Variables for body and navbar, set so that it can be hidden.
 const body = document.body;
 const Navbar = document.getElementById('navbar');
 var height = Navbar.clientHeight;
 var width = Navbar.clientWidth;
 
+//Listen for mouse events, 
 body.addEventListener('mousemove', e => showCoords(e)) 
 
+//Function for showing/hiding the navbar on the multistream page.
 function showCoords(event){
     var y = event.clientY;
-    var x = event.clientX;
     if( y <= 68){
             Navbar.style.visibility = 'visible';
             Navbar.style.opacity = '1';

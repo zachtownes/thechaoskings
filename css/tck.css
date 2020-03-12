@@ -336,6 +336,11 @@ body{
     display: inline-block;
 }
 
+.ErrorCenter{
+    width: 100%;
+    display: inline-block;
+}
+
 .Bio{
     font-family: 'Weirdo';
 }
