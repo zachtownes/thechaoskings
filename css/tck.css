@@ -284,6 +284,16 @@ body{
     white-space: nowrap;
 }
 
+.CenterVideo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 62%;
+    padding-left: 170px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .CenterFull{
     margin-left: auto;
     margin-right: auto;
