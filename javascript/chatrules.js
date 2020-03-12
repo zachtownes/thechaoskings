@@ -1,5 +1,5 @@
 //Used to count how many Twitch streeams should be rendered
-window.count=0;
+window.count=2;
 
 //Shows rule over lay when going ot multistream page. Helps with not need to render them next to vidoes/streams
 function chatrules(){
@@ -55,11 +55,10 @@ function showMultiStream(){
                 url: "https://api.twitch.tv/helix/streams?user_id=426241930",
                 success: function (response) {
                     console.log(response)
+                    window.MahershStatus = "Offline"
                     if(response.data[0].type){
                         window.MahershStatus = "Online"
                         window.count=window.count+1
-                    } else {
-                        window.MahershStatus = "Offline"
                     }
                 }
             })
@@ -72,12 +71,11 @@ function showMultiStream(){
                 url: "https://api.twitch.tv/helix/streams?user_id=105877980",
                 success: function (response) {
                     console.log(response)
+                    window.CheckovskyStatus = "Online"
                     if(response.data[0].type){
                         window.CheckovskyStatus = "Online"
                         window.count=window.count+1
-                    } else {
-                        window.CheckovskyStatus = "Offline"
-                    }
+                    } 
                 }
             })
             $.ajax({
@@ -89,11 +87,10 @@ function showMultiStream(){
                 url: "https://api.twitch.tv/helix/streams?user_id=162793470",
                 success: function (response) {
                     console.log(response)
+                    window.IrishBeefCakeStatus = "Online"
                     if(response.data[0].type){
                         window.IrishBeefCakeStatus = "Online"
                         window.count=window.count+1
-                    } else {
-                        window.IrishBeefCakeStatus = "Offline"
                     }
                 }
             })
@@ -106,12 +103,11 @@ function showMultiStream(){
                 url: "https://api.twitch.tv/helix/streams?user_id=164541550",
                 success: function (response) { 
                     console.log(response)                   
+                    window.M1STERXMAYH3MStatus = "Offline"
                     if(response.data[0].type){
                         window.M1STERXMAYH3MStatus = "Online"
                         window.count=window.count+1
-                    } else {
-                        window.M1STERXMAYH3MStatus = "Offline"
-                    }
+                    } 
                 }
             })
         }
@@ -658,12 +654,12 @@ function CheckovskyAndMahershAndIrishBeefcake(){
                 </ul>
             </h4>
         </div>
-        <div class="Center">
+        <div class="CenterVideo">
             <iframe
                 class="Video"
                 src="https://player.twitch.tv/?channel=IrishBeefCake"
                 height="45%"
-                width="100"
+                width="708"
                 frameborder="0"
                 scrolling="true"
                 allowfullscreen="true">
@@ -756,12 +752,12 @@ function CheckovskyAndIrishBeefCakeAndM1STERXMAYH3M(){
                 </ul>
             </h4>
         </div>
-        <div class="Center">
+        <div class="CenterVideo">
             <iframe
                 class="Video"
                 src="https://player.twitch.tv/?channel=M1STERXMAYH3M"
                 height="45%"
-                width="100"
+                width="700"
                 frameborder="0"
                 scrolling="true"
                 allowfullscreen="true">
@@ -854,12 +850,12 @@ function MahershAndIrishBeefcakeAndM1STERXMAYH3M(){
                 </ul>
             </h4>
         </div>
-        <div class="Center">
+        <div class="CenterVideo">
             <iframe
                 class="Video"
                 src="https://player.twitch.tv/?channel=M1STERXMAYH3M"
                 height="45%"
-                width="100"
+                width="708"
                 frameborder="0"
                 scrolling="true"
                 allowfullscreen="true">
@@ -952,12 +948,12 @@ function CheckovskyAndM1STERXMAYH3MAndMahersh(){
                 </ul>
             </h4>
         </div>
-        <div class="Center">
+        <div class="CenterVideo">
             <iframe
                 class="Video"
                 src="https://player.twitch.tv/?channel=M1STERXMAYH3M"
                 height="45%"
-                width="100"
+                width="708"
                 frameborder="0"
                 scrolling="true"
                 allowfullscreen="true">
@@ -1027,7 +1023,7 @@ function everyone(){
                 class="VideoLeft"
                 src="https://player.twitch.tv/?channel=M1STERXMAYH3M"
                 height="45%"
-                width="100%"
+                width="708"
                 frameborder="0"
                 scrolling="true"
                 allowfullscreen="true">
@@ -1067,7 +1063,7 @@ function everyone(){
 function Offline(){
     document.getElementById("TabArea").innerHTML =
         `
-        <div class="membersPage">
+        <div class="membersMultistreamPage">
         <h1 class="MembersText" style="text-align: center;">No one is currently online right now. Please use the twitch links below to follow us and get notifications when we are online.</h1>
         <div class="MembersCenter">
         <div class="LeftColumn">

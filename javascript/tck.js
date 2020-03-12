@@ -62,10 +62,10 @@ function ShowMembers(){
                 </ul>
                 </br>
                 <div style="font-size: small;">
-                    <a href="mailto:mahersh117@gmail.com" target="_top" class="nav-links"><i class="fas fa-envelope"></i> Email</a>
-                    <a href="https://www.twitch.tv/mahersh117" class="nav-links"><i class="fab fa-twitch"></i> Twitch.Tv</a>
-                    <a href="https://steamcommunity.com/id/mahersh117" class="nav-links"><i class="fab fa-steam-symbol"></i> Steam</a>
-                    <a href="https://twitter.com/mahersh117" class="nav-links"><i class="fab fa-twitter-square"></i> Twitter</a>
+                    <a href="mailto:mahersh117@gmail.com" target="_top" class="member-links"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://www.twitch.tv/mahersh117" class="member-links"><i class="fab fa-twitch"></i> Twitch.Tv</a>
+                    <a href="https://steamcommunity.com/id/mahersh117" class="member-links"><i class="fab fa-steam-symbol"></i> Steam</a>
+                    <a href="https://twitter.com/mahersh117" class="member-links"><i class="fab fa-twitter-square"></i> Twitter</a>
                 </div>
                 </br></br>
             </div>
@@ -90,10 +90,10 @@ function ShowMembers(){
                 </ul>
                 </br>
                 <div style="font-size: small;">
-                    <!-- <a href="mailto:mahersh117@gmail.com" target="_top" class="nav-links"><i class="fas fa-envelope"></i> Email</a> -->
-                    <a href="https://www.twitch.tv/M1STERXMAYH3M" class="nav-links"><i class="fab fa-twitch"></i> Twitch.Tv</a>
-                    <a href="https://steamcommunity.com/profiles/76561198202631337" class="nav-links"><i class="fab fa-steam-symbol"></i> Steam</a>
-                    <!-- <a href="https://twitter.com/mahersh117" class="nav-links"><i class="fab fa-twitter-square"></i> Twitter</a> -->
+                    <!-- <a href="mailto:mahersh117@gmail.com" target="_top" class="member-links"><i class="fas fa-envelope"></i> Email</a> -->
+                    <a href="https://www.twitch.tv/M1STERXMAYH3M" class="member-links"><i class="fab fa-twitch"></i> Twitch.Tv</a>
+                    <a href="https://steamcommunity.com/profiles/76561198202631337" class="member-links"><i class="fab fa-steam-symbol"></i> Steam</a>
+                    <!-- <a href="https://twitter.com/mahersh117" class="member-links"><i class="fab fa-twitter-square"></i> Twitter</a> -->
                 </div>
                 </br></br>
             </div>
@@ -117,10 +117,10 @@ function ShowMembers(){
                 </ul>
                 </br>
                 <div style="font-size: small;">
-                    <a href="mailto:checkovskylp@gmail.com" target="_top" class="nav-links"><i class="fas fa-envelope"></i> Email</a>
-                    <a href="https://www.twitch.tv/checkovskylp" class="nav-links"><i class="fab fa-twitch"></i> Twitch.Tv</a>
-                    <a href="https://steamcommunity.com/id/checkovsky" class="nav-links"><i class="fab fa-steam-symbol"></i> Steam</a>
-                    <a href="https://twitter.com/checkovskylp" class="nav-links"><i class="fab fa-twitter-square"></i> Twitter</a>
+                    <a href="mailto:checkovskylp@gmail.com" target="_top" class="member-links"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://www.twitch.tv/checkovskylp" class="member-links"><i class="fab fa-twitch"></i> Twitch.Tv</a>
+                    <a href="https://steamcommunity.com/id/checkovsky" class="member-links"><i class="fab fa-steam-symbol"></i> Steam</a>
+                    <a href="https://twitter.com/checkovskylp" class="member-links"><i class="fab fa-twitter-square"></i> Twitter</a>
                 </div>
                 </br></br>
             </div>
@@ -144,10 +144,10 @@ function ShowMembers(){
                 </ul>
                 </br>
                 <div style="font-size: small;">
-                    <!-- <a href="mailto:checkovskylp@gmail.com" target="_top" class="nav-links"><i class="fas fa-envelope"></i> Email</a> -->
-                    <!-- <a href="https://www.twitch.tv/checkovskylp" class="nav-links"><i class="fab fa-twitch"></i> Twitch.Tv</a> -->
-                    <!-- <a href="https://steamcommunity.com/profiles/76561198843276373" class="nav-links"><i class="fab fa-steam-symbol"></i> Steam</a> -->
-                    <!-- <a href="https://twitter.com/checkovskylp" class="nav-links"><i class="fab fa-twitter-square"></i> Twitter</a> -->
+                    <!-- <a href="mailto:checkovskylp@gmail.com" target="_top" class="member-links"><i class="fas fa-envelope"></i> Email</a> -->
+                    <!-- <a href="https://www.twitch.tv/checkovskylp" class="member-links"><i class="fab fa-twitch"></i> Twitch.Tv</a> -->
+                    <!-- <a href="https://steamcommunity.com/profiles/76561198843276373" class="member-links"><i class="fab fa-steam-symbol"></i> Steam</a> -->
+                    <!-- <a href="https://twitter.com/checkovskylp" class="member-links"><i class="fab fa-twitter-square"></i> Twitter</a> -->
                 </div>
                 </br></br>
                 </div>
@@ -171,10 +171,10 @@ function ShowMembers(){
                 </ul>
                 </br>
                 <div style="font-size: small;">
-                    <!-- <a href="mailto:checkovskylp@gmail.com" target="_top" class="nav-links"><i class="fas fa-envelope"></i> Email</a> -->
-                    <a href="https://www.twitch.tv/irishbeefcake" class="nav-links"><i class="fab fa-twitch"></i> Twitch.Tv</a>
-                    <a href="https://steamcommunity.com/profiles/76561198412950319" class="nav-links"><i class="fab fa-steam-symbol"></i> Steam</a>
-                    <!-- <a href="https://twitter.com/checkovskylp" class="nav-links"><i class="fab fa-twitter-square"></i> Twitter</a> -->
+                    <!-- <a href="mailto:checkovskylp@gmail.com" target="_top" class="member-links"><i class="fas fa-envelope"></i> Email</a> -->
+                    <a href="https://www.twitch.tv/irishbeefcake" class="member-links"><i class="fab fa-twitch"></i> Twitch.Tv</a>
+                    <a href="https://steamcommunity.com/profiles/76561198412950319" class="member-links"><i class="fab fa-steam-symbol"></i> Steam</a>
+                    <!-- <a href="https://twitter.com/checkovskylp" class="member-links"><i class="fab fa-twitter-square"></i> Twitter</a> -->
                 </div>
                 </br></br>
                 </div>
@@ -321,7 +321,10 @@ function IrishBeefCakeBio(){
 //Removes the backround blur on anypage, and hides overlays
 $('.HidePage').click(CloseTransactionForm);
 function CloseTransactionForm() {
-    if(window.location.href == "https://thechaoskings.com/test/"){
+    if(window.location.href.match('/test*/')){
+        
+    }
+    else if(window.location.href.match('/multistream.*/')){
         
     }
     else {
