@@ -1,5 +1,7 @@
+//Used to count how many Twitch streeams should be rendered
 window.count=0;
 
+//Shows rule over lay when going ot multistream page. Helps with not need to render them next to vidoes/streams
 function chatrules(){
     $('.HidePage').show();
     document.getElementById('TabArea').innerHTML=
@@ -31,6 +33,7 @@ function chatrules(){
     `
 }
 
+//Decides which streams and how many should be set based off of who is live from twitch API
 function showMultiStream(){
     $('.HidePage').hide();
     $.ajax({
@@ -192,6 +195,7 @@ function showMultiStream(){
     }
 }
 
+//Sets up for Mahersh
 function MahershOnly(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML=
@@ -216,6 +220,7 @@ function MahershOnly(){
     `
 }
 
+//Sets up for Chekcovsky
 function CheckovskyOnly(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML=
@@ -240,6 +245,7 @@ function CheckovskyOnly(){
     `
 }
 
+//Sets up for Axel
 function IrishBeefcakeOnly(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML=
@@ -264,6 +270,7 @@ function IrishBeefcakeOnly(){
     `
 }
 
+//Sets up for Mayh3m Only
 function M1STERXMAYH3MOnly(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML=
@@ -288,6 +295,7 @@ function M1STERXMAYH3MOnly(){
     `
 }
 
+//Sets up for Checkovsky and Mahersh//
 function CheckovskyAndMahersh(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML +=
@@ -335,6 +343,7 @@ function CheckovskyAndMahersh(){
     `
 }
 
+//Sets up for Checkovsky and Axel
 function CheckovskyAndIrishBeefcake(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML +=
@@ -382,6 +391,7 @@ function CheckovskyAndIrishBeefcake(){
     `
 }
 
+//Sets up for Checkovsky and Mayh3m
 function CheckovskyAndM1STERXMAYH3M(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML +=
@@ -429,6 +439,7 @@ function CheckovskyAndM1STERXMAYH3M(){
     `
 }
 
+//Sets up for Mahersh and Mayh3m
 function MahershAndM1STERXMAYH3M(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML +=
@@ -476,6 +487,7 @@ function MahershAndM1STERXMAYH3M(){
     `
 }
 
+//Sets up for Mahers and Beefcake
 function MahershAndIrishBeefcake(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML +=
@@ -523,6 +535,7 @@ function MahershAndIrishBeefcake(){
     `
 }
 
+//Sets up for Axel and Mayh3m
 function IrishBeefCakeAndM1STERXMAYH3M(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML +=
@@ -569,6 +582,8 @@ function IrishBeefCakeAndM1STERXMAYH3M(){
     </div>
     `
 }
+
+//Sets up for Axel, Checkovsky, Mahersh
 function CheckovskyAndMahershAndIrishBeefcake(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML +=
@@ -666,6 +681,7 @@ function CheckovskyAndMahershAndIrishBeefcake(){
     ` 
 }
 
+//Sets up for Axel, Checkovsky, Mayh3m
 function CheckovskyAndIrishBeefCakeAndM1STERXMAYH3M(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML +=
@@ -763,6 +779,7 @@ function CheckovskyAndIrishBeefCakeAndM1STERXMAYH3M(){
     ` 
 }
 
+//Sets up for Mahersh, Axel and Mayh3m
 function MahershAndIrishBeefcakeAndM1STERXMAYH3M(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML +=
@@ -860,7 +877,7 @@ function MahershAndIrishBeefcakeAndM1STERXMAYH3M(){
     ` 
 }
 
-
+//Sets up for Checkovsky, Mayh3m, and Mahersh
 function CheckovskyAndM1STERXMAYH3MAndMahersh(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML +=
@@ -958,6 +975,7 @@ function CheckovskyAndM1STERXMAYH3MAndMahersh(){
     ` 
 }
 
+//Sets up for 4 streams (Axel, Mayh3m, Checkovsky, Mahers)
 function everyone(){
     document.getElementById("TabArea").innerHTML = "";
     document.getElementById('multistreamArea').innerHTML=
@@ -1045,6 +1063,7 @@ function everyone(){
     </div>`
 }
 
+//Renders Members info if no one is live.
 function Offline(){
     document.getElementById("TabArea").innerHTML =
         `
