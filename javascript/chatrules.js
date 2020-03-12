@@ -593,7 +593,7 @@ function CheckovskyAndMahershAndIrishBeefcake(){
             <iframe
                 class="VideoLeft"
                 src="https://player.twitch.tv/?channel=checkovskylp"
-                height="400"
+                height="45%"
                 width="100%"
                 frameborder="0"
                 scrolling="true"
@@ -605,7 +605,7 @@ function CheckovskyAndMahershAndIrishBeefcake(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/checkovskylp/chat"
-                height="400"
+                height="45%"
                 width="100%"
                 >
             </iframe>
@@ -614,7 +614,7 @@ function CheckovskyAndMahershAndIrishBeefcake(){
             <iframe
                 class="VideoRight"
                 src="https://player.twitch.tv/?channel=mahersh117"
-                height="400"
+                height="45%"
                 width="100%"
                 frameborder="0"
                 scrolling="true"
@@ -625,7 +625,7 @@ function CheckovskyAndMahershAndIrishBeefcake(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/mahersh117/chat"
-                height="400"
+                height="45%"
                 width="100%">
             </iframe>
         </div>
@@ -662,8 +662,8 @@ function CheckovskyAndMahershAndIrishBeefcake(){
             <iframe
                 class="Video"
                 src="https://player.twitch.tv/?channel=IrishBeefCake"
-                height="400"
-                width="708"
+                height="45%"
+                width="100"
                 frameborder="0"
                 scrolling="true"
                 allowfullscreen="true">
@@ -673,7 +673,7 @@ function CheckovskyAndMahershAndIrishBeefcake(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/IrishBeefCake/chat"
-                height="400"
+                height="45%"
                 width="200">
             </iframe>
         </div>
@@ -691,7 +691,7 @@ function CheckovskyAndIrishBeefCakeAndM1STERXMAYH3M(){
             <iframe
                 class="VideoLeft"
                 src="https://player.twitch.tv/?channel=checkovskylp"
-                height="400"
+                height="45%"
                 width="100%"
                 frameborder="0"
                 scrolling="true"
@@ -703,7 +703,7 @@ function CheckovskyAndIrishBeefCakeAndM1STERXMAYH3M(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/checkovskylp/chat"
-                height="400"
+                height="45%"
                 width="100%"
                 >
             </iframe>
@@ -712,7 +712,7 @@ function CheckovskyAndIrishBeefCakeAndM1STERXMAYH3M(){
             <iframe
                 class="VideoRight"
                 src="https://player.twitch.tv/?channel=IrishBeefCake"
-                height="400"
+                height="45%"
                 width="100%"
                 frameborder="0"
                 scrolling="true"
@@ -723,7 +723,7 @@ function CheckovskyAndIrishBeefCakeAndM1STERXMAYH3M(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/IrishBeefCake/chat"
-                height="400"
+                height="45%"
                 width="100%">
             </iframe>
         </div>
@@ -760,8 +760,8 @@ function CheckovskyAndIrishBeefCakeAndM1STERXMAYH3M(){
             <iframe
                 class="Video"
                 src="https://player.twitch.tv/?channel=M1STERXMAYH3M"
-                height="400"
-                width="708"
+                height="45%"
+                width="100"
                 frameborder="0"
                 scrolling="true"
                 allowfullscreen="true">
@@ -771,7 +771,7 @@ function CheckovskyAndIrishBeefCakeAndM1STERXMAYH3M(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/M1STERXMAYH3M/chat"
-                height="400"
+                height="45%"
                 width="200">
             </iframe>
         </div>
@@ -789,7 +789,7 @@ function MahershAndIrishBeefcakeAndM1STERXMAYH3M(){
             <iframe
                 class="VideoLeft"
                 src="https://player.twitch.tv/?channel=mahersh117"
-                height="400"
+                height="45%"
                 width="100%"
                 frameborder="0"
                 scrolling="true"
@@ -801,7 +801,7 @@ function MahershAndIrishBeefcakeAndM1STERXMAYH3M(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/mahersh117/chat"
-                height="400"
+                height="45%"
                 width="100%"
                 >
             </iframe>
@@ -810,7 +810,7 @@ function MahershAndIrishBeefcakeAndM1STERXMAYH3M(){
             <iframe
                 class="VideoRight"
                 src="https://player.twitch.tv/?channel=IrishBeefCake"
-                height="400"
+                height="45%"
                 width="100%"
                 frameborder="0"
                 scrolling="true"
@@ -821,7 +821,7 @@ function MahershAndIrishBeefcakeAndM1STERXMAYH3M(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/IrishBeefCake/chat"
-                height="400"
+                height="45%"
                 width="100%">
             </iframe>
         </div>
@@ -858,8 +858,8 @@ function MahershAndIrishBeefcakeAndM1STERXMAYH3M(){
             <iframe
                 class="Video"
                 src="https://player.twitch.tv/?channel=M1STERXMAYH3M"
-                height="400"
-                width="708"
+                height="45%"
+                width="100"
                 frameborder="0"
                 scrolling="true"
                 allowfullscreen="true">
@@ -869,7 +869,7 @@ function MahershAndIrishBeefcakeAndM1STERXMAYH3M(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/M1STERXMAYH3M/chat"
-                height="400"
+                height="45%"
                 width="200">
             </iframe>
         </div>
@@ -887,7 +887,7 @@ function CheckovskyAndM1STERXMAYH3MAndMahersh(){
             <iframe
                 class="VideoLeft"
                 src="https://player.twitch.tv/?channel=checkovskylp"
-                height="400"
+                height="45%"
                 width="100%"
                 frameborder="0"
                 scrolling="true"
@@ -899,7 +899,7 @@ function CheckovskyAndM1STERXMAYH3MAndMahersh(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/checkovskylp/chat"
-                height="400"
+                height="45%"
                 width="100%"
                 >
             </iframe>
@@ -908,7 +908,7 @@ function CheckovskyAndM1STERXMAYH3MAndMahersh(){
             <iframe
                 class="VideoRight"
                 src="https://player.twitch.tv/?channel=mahersh117"
-                height="400"
+                height="45%"
                 width="100%"
                 frameborder="0"
                 scrolling="true"
@@ -919,7 +919,7 @@ function CheckovskyAndM1STERXMAYH3MAndMahersh(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/mahersh117/chat"
-                height="400"
+                height="45%"
                 width="100%">
             </iframe>
         </div>
@@ -956,8 +956,8 @@ function CheckovskyAndM1STERXMAYH3MAndMahersh(){
             <iframe
                 class="Video"
                 src="https://player.twitch.tv/?channel=M1STERXMAYH3M"
-                height="400"
-                width="708"
+                height="45%"
+                width="100"
                 frameborder="0"
                 scrolling="true"
                 allowfullscreen="true">
@@ -967,7 +967,7 @@ function CheckovskyAndM1STERXMAYH3MAndMahersh(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/M1STERXMAYH3M/chat"
-                height="400"
+                height="45%"
                 width="200">
             </iframe>
         </div>
@@ -984,7 +984,7 @@ function everyone(){
             <iframe
                 class="VideoLeft"
                 src="https://player.twitch.tv/?channel=checkovskylp"
-                height="400"
+                height="45%"
                 width="100%"
                 frameborder="0"
                 scrolling="true"
@@ -996,7 +996,7 @@ function everyone(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/checkovskylp/chat"
-                height="400"
+                height="45%"
                 width="100%"
                 >
             </iframe>
@@ -1005,7 +1005,7 @@ function everyone(){
             <iframe
                 class="VideoRight"
                 src="https://player.twitch.tv/?channel=mahersh117"
-                height="400"
+                height="45%"
                 width="100%"
                 frameborder="0"
                 scrolling="true"
@@ -1016,7 +1016,7 @@ function everyone(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/mahersh117/chat"
-                height="400"
+                height="45%"
                 width="100%">
             </iframe>
         </div>
@@ -1026,8 +1026,8 @@ function everyone(){
             <iframe
                 class="VideoLeft"
                 src="https://player.twitch.tv/?channel=M1STERXMAYH3M"
-                height="400"
-                width="708"
+                height="45%"
+                width="100%"
                 frameborder="0"
                 scrolling="true"
                 allowfullscreen="true">
@@ -1037,7 +1037,7 @@ function everyone(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/M1STERXMAYH3M/chat"
-                height="400"
+                height="45%"
                 width="100%">
             </iframe>
         </div>
@@ -1045,7 +1045,7 @@ function everyone(){
             <iframe
                 class="VideoRight"
                 src="https://player.twitch.tv/?channel=IrishBeefcake"
-                height="400"
+                height="45%"
                 width="100%"
                 frameborder="0"
                 scrolling="true"
@@ -1056,7 +1056,7 @@ function everyone(){
                 frameborder="0"
                 id="chat_embed"
                 src="https://www.twitch.tv/embed/IrishBeefcake/chat"
-                height="400"
+                height="45%"
                 width="100%">
             </iframe>
         </div>
