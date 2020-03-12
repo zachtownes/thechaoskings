@@ -2,6 +2,11 @@
     --dark-grey: #2e2e2e;
     --mcgray: #292929;
     --more-ominous-sky: #101111;
+    --color1: rgba(46, 46, 46, 1);
+    --color2: rgba(47, 53, 40, 1);
+    --color3: rgba(72, 86, 101, 1);
+    --color4: rgba(95, 96, 98, 1);
+    --color5: rgba(241, 247, 237, 1);
 }
 
 @font-face{
@@ -61,7 +66,7 @@ body{
 .membersPage{
     z-index: 4;
     position: absolute;
-    background-color: var(--more-ominous-sky);
+    background-color: var(--color4);
     border: thick;
     border-radius: 15px;
     border-color: black;
@@ -72,7 +77,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     top: 20px;
-    height: 600px;
+    height: 400px;
 }
 
 .rulesPage{
@@ -106,6 +111,13 @@ body{
 }
 
 .nav-links,
+.logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+}
+
+.member-links,
 .logo {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
@@ -315,14 +327,14 @@ body{
     float: left;
     position: relative;
     width: 25%;
-    padding-left: 20px !important;
+    padding-left: 30px !important;
 }
 
 .LeftAlignNoPad{
     float: left;
     position: relative;
     width: 25%;
-    padding-left: 5px !important;
+    padding-left: 15px !important;
 }
 
 .RightAlign{
@@ -332,6 +344,7 @@ body{
 }
 
 .MembersCenter{
+    height: 50%;
     width: 90%;
     display: inline-block;
 }
@@ -348,10 +361,11 @@ body{
 .LeftColumn{
     float: left;
     width: 25%;
+    padding-top: 50px;
 }
 
 .RightColumn{
-    padding-top: 25px;
+    padding-top: 50px;
     float: right;
     width: 75%;
 }
