@@ -115,8 +115,9 @@ body{
     margin-right: auto;
     margin-left: auto;
     top: 20px;
-    height: 430px;
+    height: 40%;
     text-align: center;
+    overflow: auto;
 }
 
 .navbar {
