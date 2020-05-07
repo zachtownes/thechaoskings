@@ -49,7 +49,8 @@ function showMultiStream(){
             $.ajax({
                 type: "GET",
                 headers: {
-                    'Authorization': 'Bearer ' + data.access_token
+                    'Authorization': 'Bearer ' + data.access_token,
+                    'Client-ID':'oz93uklqqxzw3v2aq41or3850tvpu5'
                 },
                 async: false,
                 url: "https://api.twitch.tv/helix/streams?user_id=426241930",
@@ -65,7 +66,8 @@ function showMultiStream(){
             $.ajax({
                 type: "GET",
                 headers: {
-                    'Authorization': 'Bearer ' + data.access_token
+                    'Authorization': 'Bearer ' + data.access_token,
+                    'Client-ID':'oz93uklqqxzw3v2aq41or3850tvpu5'
                 },
                 async: false,
                 url: "https://api.twitch.tv/helix/streams?user_id=105877980",
@@ -81,7 +83,8 @@ function showMultiStream(){
             $.ajax({
                 type: "GET",
                 headers: {
-                    'Authorization': 'Bearer ' + data.access_token
+                    'Authorization': 'Bearer ' + data.access_token,
+                    'Client-ID':'oz93uklqqxzw3v2aq41or3850tvpu5'
                 },
                 async: false,
                 url: "https://api.twitch.tv/helix/streams?user_id=162793470",
@@ -97,7 +100,8 @@ function showMultiStream(){
             $.ajax({
                 type: "GET",
                 headers: {
-                    'Authorization': 'Bearer ' + data.access_token
+                    'Authorization': 'Bearer ' + data.access_token,
+                    'Client-ID':'oz93uklqqxzw3v2aq41or3850tvpu5'
                 },
                 async: false,
                 url: "https://api.twitch.tv/helix/streams?user_id=164541550",
