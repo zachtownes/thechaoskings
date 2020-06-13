@@ -1055,7 +1055,7 @@ function everyone(){
                 class="ChatRight"
                 frameborder="0"
                 id="chat_embed"
-                src="https://www.twitch.tv/embed/IrishBeefcake/chat"
+                src="https://www.twitch.tv/embed/IrishBeefcake/chat?parent=thechaoskings.com"
                 height="45%"
                 width="100%">
             </iframe>
